@@ -1,7 +1,8 @@
 # Renewable Energy Usages
 
 ## Group Members:
-- Swar Prajapati (KU2407U787)
+- Hitansh Chauhan (Ku2407U784)
+  
 
 ## Objective of the Project:
 The project focuses on graphical analysis of renewable energy usage, showcasing trends, comparisons, and growth in the renewable energy sector.
