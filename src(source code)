@@ -1,0 +1,53 @@
+import datetime
+a=0
+
+class Transaction:
+    def __init__(self, date, description, amount):
+        self.date = date
+        self.description = description
+        self.amount = amount
+
+class AccountingBot:
+    def __init__(self):
+        self.transactions = []
+
+    def add_transaction(self, date, description, amount):
+        transaction = Transaction(date, description, amount)
+        self.transactions.append(transaction)
+        print("Transaction added.")
+
+    def total_income(self):
+        return sum(t.amount for t in self.transactions if t.amount > 0)
+
+    def total_expenses(self):
+        return sum(t.amount for t in self.transactions if t.amount < 0)
+
+    def generate_report(self):
+        print("Date\t\tDescription\tAmount")
+        print("-" * 40)
+        for t in self.transactions:
+            print(f"{t.date}\t{t.description}\t{t.amount}")
+        print("-" * 40)
+       
+# Example usage
+x=int(input("enter salary: "))
+
+z=int(input("enter expense: "))
+while z<=x:
+    a=a+z
+    z=int(input("enter expense: "))
+    
+    if z>=x:
+        print("over budget")
+    elif z==0:
+        break
+    
+
+
+bot = AccountingBot()
+bot.add_transaction(datetime.date(2024, 12, 10), "Salary", x)
+bot.add_transaction(datetime.date(2024, 12, 11), "Expense",a)
+print("remaining funds =",x-a)
+
+
+bot.generate_report()
