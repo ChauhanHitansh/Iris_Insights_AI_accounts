@@ -4,7 +4,7 @@
 - Hitansh Chauhan (Ku2407U784)
 - Kavya Patel (KU2407U661)
 - Dhairya Shah (KU2407U668)
-  
+- Aaryan Rana 
 
 ## Objective of the Project:
 The project focuses on doing accounts by taking values (bank statement,invoices,etc) and providing you with your completed accounts to be reviewed easily.
