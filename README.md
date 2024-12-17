@@ -8,8 +8,7 @@
 
 ## Objective of the Project:
 The project focuses on doing accounts by taking values (bank statement,invoices,etc) and providing you with your completed accounts to be reviewed easily.
-## Tools and Libraries Used:
-- **Python Libraries**: Seaborn, Pandas, Matplotlib
+
 
 ## Data Source(s):
 - Kaggle: https://www.kaggle.com/datasets/anishreddyindupuru/upi-trend-basis-demontization-and-corona?resource=download
